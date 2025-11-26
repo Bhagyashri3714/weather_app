@@ -1,0 +1,92 @@
+body {
+  background-image: url('https://t4.ftcdn.net/jpg/04/61/23/23/360_F_461232389_XCYvca9n9P437nm3FrCsEIapG4SrhufP.jpg');
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 450px;
+  margin: 60px auto;
+  background: white;
+  margin-top: 150px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: Algerian;
+  color: #075a71;
+  margin-bottom: 20px;
+}
+
+.form-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #0e6c8e;
+}
+
+
+.btn-search {
+  padding: 12px 20px;
+  background: #086dac;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-search:hover {
+  background: #46b1e7;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Weather card */
+.weather-card {
+  margin-top: 20px;
+  background: #90e6f4;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.city-name {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Times New Roman';
+}
+
+.temp {
+  font-size: 40px;
+  color: #075a71;
+  margin: 10px 0;
+}
+
+.conditions {
+  font-size: 18px;
+  color: #244551;
+}
